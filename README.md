@@ -49,12 +49,27 @@ However, when the data is grouped by lot, it can be noted that Lot 3 does not me
  
  
  ## Study Design: MechaCar vs Competition
- Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+ Write a short description of a statistical study that can quantify how the MechaCar performs against the competition.
+ In a hypothertical statistical study, we could test the frequencies of car safety features in both MechaCars and it's competitors in order to determine which has the most saftey features and higher safety rating. 
  
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+ Categorical factors affecting car safety ratings that we could measure are:
+  - Airbags
+  - Shatter-resistant glass
+  - Seatbelts
+  - Anti-lock braking systems
+  - Four-wheel steering
+ 
+ The null hypothesis would be: 
+ H0 : There is no difference in the frequency distribution of safety factors between MechaCars and a competitor car brand 
+ 
+ The alternative hypothesis would be: 
+ Ha : There is a difference in frequency distribution of safety factors between MechaCars and a competitor car brand
+
+A chi-squared test would be used to test the hypothesis since the variables are categorical.  
+
+We would need to collect frequency data to determine how many factors are present in both groups of cars. 
+Then, we could run a chi-squared test to see if there is a difference and if there is a difference, we could determine which car brand 
+has more factors contributing to safety. 
+
 
 
