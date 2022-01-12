@@ -49,7 +49,6 @@ However, when the data is grouped by lot, it can be noted that Lot 3 does not me
  
  
  ## Study Design: MechaCar vs Competition
- Write a short description of a statistical study that can quantify how the MechaCar performs against the competition.
  In a hypothertical statistical study, we could test the frequencies of car safety features in both MechaCars and it's competitors in order to determine which has the most saftey features and higher safety rating. 
  
  Categorical factors affecting car safety ratings that we could measure are:
