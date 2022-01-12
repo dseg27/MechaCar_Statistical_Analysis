@@ -20,5 +20,15 @@ total_summary <- table %>% summarize(Mean=mean(PSI), Median = median(PSI),
 
 lot_summary <- table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median = median(PSI),
                                                                     Variance = var(PSI), SD = sd(PSI), .groups = 'keep')
-
+# DELIVERABLE 3 
                                                                    
+t.test(table$PSI, mu=1500)
+
+filter_table1 <- table[table$Manufacturing_Lot == "Lot1",]
+t.test(filter_table1$PSI, mu=1500)
+
+filter_table2 <- table[table$Manufacturing_Lot == "Lot2",]
+t.test(filter_table2$PSI, mu=1500)
+
+filter_table3 <- table[table$Manufacturing_Lot == "Lot3",]
+t.test(filter_table3$PSI, mu=1500)
